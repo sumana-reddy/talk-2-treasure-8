@@ -1,0 +1,19 @@
+{
+  "name": "talk-2-group-7",
+  "version": "1.0.0",
+  "description": "This is an app kind of like the magic 8 ball - instead it only has two responses, not 8.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHARIKA17/talk-2-group-7.git"
+  },
+  "author": "Venkatayashwanth Damera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KHARIKA17/talk-2-group-7/issues"
+  },
+  "homepage": "https://github.com/KHARIKA17/talk-2-group-7#readme"
+}

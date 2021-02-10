@@ -1,0 +1,38 @@
+
+
+header{
+  position: absolute;
+  left: 41%;
+}
+
+article {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -200px;
+}
+.status {
+  height: 400px;
+  width: 400px;
+  background: brown;
+  float: left;
+  margin-left: 2px;
+  border: 1px solid #ccc;
+}
+
+.status1 {
+  height: 400px;
+  width: 400px;
+  background: orange;
+  float: left;
+  margin-left: 2px;
+  border: 1px solid #ccc;
+}
+
+#foot{
+  text-align: center;
+  color:black;
+  bottom: 0%;
+  margin-top: 0px;
+}
