@@ -18,7 +18,7 @@ colorElement2.addEventListener('touch', onClickSquareBox2);
 async function onClickSquareBox1() {
 
     data.forEach(function(value){
-        document.getElementById("status").innerHTML = value.status_message;
+        document.getElementById("status").innerHTML = "This is color Brown.";
         let utterance = new SpeechSynthesisUtterance(value.status_message);
         speechSynthesis.speak(utterance);
     });
