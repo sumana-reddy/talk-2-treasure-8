@@ -9,14 +9,14 @@ article {
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -400px;
-  margin-top: -200px;
+  margin-left: -220px;
+  margin-top: -120px;
 }
 
 
 #status {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   background: brown;
   float: left;
   margin-left: 2px;
@@ -24,8 +24,8 @@ article {
 }
 
 #status1 {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   background: orange;
   float: left;
   margin-left: 2px;
