@@ -14,7 +14,7 @@ article {
 }
 
 
-#status {
+#status1 {
   height: 200px;
   width: 200px;
   background: brown;
@@ -23,7 +23,7 @@ article {
   border: 1px solid #ccc;
 }
 
-#status1 {
+#status2 {
   height: 200px;
   width: 200px;
   background: orange;
