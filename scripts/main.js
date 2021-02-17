@@ -21,7 +21,6 @@ async function onClickSquareBox1() {
     let confirmation = "Treasure ready: " + location.name;
     document.getElementById("status1").innerHTML = confirmation;
     let utterance = new SpeechSynthesisUtterance(confirmation);
-    console.log("hh")
     speechSynthesis.speak(utterance);
 }
 
@@ -30,13 +29,19 @@ async function onClickSquareBox2() {
 
     let isInside = isInsideQuad(device, location);
     let status;
+    let speak;
     if(isInside) {
-        status = "You have reached " + location.name;
+        status = "Device Coordinates: " + "<br>";
+        status += "Latitude: " + device.coords.latitude + "<br>";
+        status += "Longitude: " + device.coords.longitude + "<br>";
+        status += "Congratulations!! You have reached Quest: " + location.name;
+        speak = "Congratulations!! You have reached Quest: " + location.name;
     } else {
         status = "You haven't reached the quest";
+        speak = "You haven't reached the quest";
     }
     document.getElementById("status2").innerHTML = status;
-    let utterance = new SpeechSynthesisUtterance(status);
+    let utterance = new SpeechSynthesisUtterance(speak);
     speechSynthesis.speak(utterance);
 
 }
