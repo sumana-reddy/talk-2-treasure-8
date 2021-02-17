@@ -30,14 +30,14 @@ async function onClickSquareBox2() {
     let isInside = isInsideQuad(device, location);
     let status;
     let speak;
+    status = "Device Coordinates: " + "<br>";
+    status += "Latitude: " + device.coords.latitude + "<br>";
+    status += "Longitude: " + device.coords.longitude + "<br>";
     if(isInside) {
-        status = "Device Coordinates: " + "<br>";
-        status += "Latitude: " + device.coords.latitude + "<br>";
-        status += "Longitude: " + device.coords.longitude + "<br>";
         status += "Congratulations!! You have reached Quest: " + location.name;
         speak = "Congratulations!! You have reached Quest: " + location.name;
     } else {
-        status = "You haven't reached the quest";
+        status += "You haven't reached the quest";
         speak = "You haven't reached the quest";
     }
     document.getElementById("status2").innerHTML = status;
