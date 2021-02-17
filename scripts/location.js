@@ -4,20 +4,20 @@ export default [
         type: 'quad',
         coordinates: [
             {
-                latitude: 40.360761,
-                longitude: -94.888086
+                latitude: 40.360857,
+                longitude: -94.888152
             },
             {
-                latitude: 40.360743,
-                longitude: -94.887509
+                latitude: 40.360849,
+                longitude: -94.887489
             },
             {
-                latitude: 40.360582,
-                longitude: -94.887525
+                latitude: 40.360495,
+                longitude: -94.887500
             },
             {
-                latitude: 40.360627,
-                longitude: -94.888096
+                latitude: 40.360521,
+                longitude: -94.888210
             }
         ]
     }
