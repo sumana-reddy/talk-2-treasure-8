@@ -1,5 +1,5 @@
 import data from './speech.js'
-import locationsArray from './location.js';
+import locationsArray from '../locations.js';
 
 let colorElement1 = document.getElementById("status1");
 let colorElement2 = document.getElementById("status2");
