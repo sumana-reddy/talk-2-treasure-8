@@ -1,0 +1,29 @@
+describe("Filter function", () => {
+  // test stuff
+});
+
+
+import location from '../location.js';
+
+// very basic test to notify the user if our pizza data has changed
+test('the location data is correct', () => {
+  expect(location).toMatchSnapshot();
+  expect(pizzas).toHaveLength(4);
+  expect(pizzas.map(pizza => pizza.name)).toEqual([
+    'Chicago Pizza',
+    'Neapolitan Pizza',
+    'New York Pizza',
+    'Sicilian Pizza',
+  ]);
+});
+
+// let's test that each item in the pizza data has the correct properties
+for (let i = 0; i < pizzas.length; i += 1) {
+  it(`pizza[${i}] should have properties (id, name, image, desc, price)`, () => {
+    expect(pizzas[i]).toHaveProperty('id');
+    expect(pizzas[i]).toHaveProperty('name');
+    expect(pizzas[i]).toHaveProperty('image');
+    expect(pizzas[i]).toHaveProperty('desc');
+    expect(pizzas[i]).toHaveProperty('price');
+  });
+}
