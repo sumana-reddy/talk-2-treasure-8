@@ -1,4 +1,4 @@
-import location from '../location.js';
+import location from '../locations.js';
 
 // very basic test to notify the user if our location data has changed
 test('the location data is correct', () => {
