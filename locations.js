@@ -20,6 +20,11 @@ export default [
                 longitude: -94.888210
             }
         ]
+    },
+    {
+        Name:'B.D Owens Library',
+        Latitude:40.35385, 
+        Longitude:-94.88591,
     }
 
 ];
