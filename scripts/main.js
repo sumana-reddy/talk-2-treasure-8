@@ -134,7 +134,7 @@ function isInsideQuad(device, location) {
     }
 }
 
-
+export default isValidCoordinates;
 
 
 
